@@ -185,14 +185,14 @@ It's a command line utility to find file and directory inside a given path.
 > find random_structure -type f -size +100k
 > ```
 
-- find file between x and y MB.
+- find file between x and y kB.
 > ```bash
 > find random_structure -type f -size +10k -size -30k
 > ```
 
 - find file with .mp3 and .txt extension.
 > ```bash
-> find random_structure -type f \( -name "*mp3*" -o -name "*.txt" \)
+> find random_structure -type f \( -name "*.mp3" -o -name "*.txt" \)
 > ```
 
 - find only directory.
