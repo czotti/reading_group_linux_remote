@@ -9,7 +9,7 @@ NB, to keep shh connection alive:
 
 
 ### Installation
-Mainly you need these tools to work on a remote computer/server.
+Mainly you need these tools on the remote computer/server.
 
 ```bash
 sudo apt-get install screen byobu renameutils ack-grep sshfs openssh
