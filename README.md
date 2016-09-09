@@ -2,7 +2,7 @@
 
 This reading group focuses on some useful tools when you're remotely working on your main computer.
 
-NB, to keep shh connection alive: 
+NB, to keep ssh connection alive: 
 > `ssh -o "ServerAliveInterval 30" -o "ServerAliveCountMax 3" username@server_address`
 
 or 
