@@ -5,6 +5,20 @@ This reading group focuses on some useful tools when you're remotely working on 
 NB, to keep shh connection alive: 
 > `ssh -o "ServerAliveInterval 30" -o "ServerAliveCountMax 3" username@server_address`
 
+or 
+
+> `touch ~/.ssh/config`
+
+Edit `.ssh/config` file and add the folowing:
+
+```bash
+Host *
+    ServerAliveInterval 30
+    ServerAliveCountMax 3
+```
+
+This will add this parameters each time you use the ssh client.
+
 ## Install & prepare
 
 
