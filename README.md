@@ -17,7 +17,7 @@ Host *
     ServerAliveCountMax 3
 ```
 
-This will add this parameters each time you use the ssh client.
+This will add these parameters each time you use the ssh client.
 
 ## Install & prepare
 
