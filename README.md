@@ -12,13 +12,13 @@ NB, to keep shh connection alive:
 Mainly you need these tools on the remote computer/server.
 
 ```bash
-sudo apt-get install screen byobu renameutils ack-grep sshfs openssh
+sudo apt-get install screen byobu renameutils ack-grep sshfs openssh-server
 ```
 
 and on your client computer (Linux):
 
 ```bash
-sudo apt-get install sshfs openssh
+sudo apt-get install sshfs openssh-client
 ```
 
 or (Windows) install [bitvise](https://www.bitvise.com/ssh-client-download).
